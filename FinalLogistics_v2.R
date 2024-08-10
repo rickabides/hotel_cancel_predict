@@ -6,7 +6,7 @@ library(summarytools)
 library(DataExplorer)
 
 # Read the CSV file (assuming you're using the full dataset now)
-data <- read.csv("/Users/rbryce/Downloads/HotelReservations_trim_v2.csv")
+data <- read.csv("HotelReservations_trim_v2.csv")
 
 # Prepare data
 colSums(is.na(data))
