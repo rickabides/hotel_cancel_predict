@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 os.makedirs('training_plots', exist_ok=True)
 
 # Load the CSV file
-data = pd.read_csv('/Users/rbryce/Downloads/HotelReservations_trim_v2.csv')
+data = pd.read_csv('HotelReservations_trim_v2.csv')
 
 # Prepare data by removing unnecessary columns
 hotel_data = data.drop(columns=['BookingID', 'ArrivalDate', 'ArrivalYear', 'ArrivalMonth'])
